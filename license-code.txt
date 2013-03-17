@@ -1,0 +1,26 @@
+To make things clear. The design has been created by nice guys at FCT. 
+Copyrights are theirs. They also had some photos bundled, but I ditched 
+those and copyrights of the photographer as well, since they made the 
+bottom line too long. See license-design.txt
+
+Lightbox2 code is licensed under the 
+Creative Commons Attribution 2.5 License 
+http://creativecommons.org/licenses/by/2.5/
+
+All the php code is mine, and ajax.js code as well, and here is the 
+license that suits that code
+
+
+           DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
+                   Version 2, December 2004
+
+Copyright (C) 2004 Sam Hocevar
+ 14 rue de Plaisance, 75014 Paris, France
+Everyone is permitted to copy and distribute verbatim or modified
+copies of this license document, and changing it is allowed as long
+as the name is changed.
+
+           DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
+  TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
+
+0. You just DO WHAT THE FUCK YOU WANT TO.
