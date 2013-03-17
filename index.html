@@ -1,0 +1,133 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License
+
+Name       : Old Stairwell 
+Description: A two-column, fixed-width design with dark color scheme.
+Version    : 1.0
+Released   : 20130313
+
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Portable Anomalia :: Overview</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+
+<!--
+<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700" rel="stylesheet" type="text/css">
+-->
+<link href="default.css" rel="stylesheet" type="text/css" media="all" />
+<!--[if IE 6]>
+<link href="default_ie6.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+</head>
+<body onload="on_load_handler();">
+<script src="/ajax.js"></script>
+<script src="js/jquery-1.7.2.min.js"></script>
+<script src="js/lightbox.js"></script>
+<link href="css/lightbox.css" rel="stylesheet" />
+
+<div id="wrapper">
+	<div id="header">
+		<div id="logo">
+			<h1><a href="/">Anomalia</a></h1>
+			<p>Necromant's pocket server</p>
+		</div>
+		<div id="menu">
+			<ul>
+				<li><a href="#" accesskey="1" title="" onclick="on_load_handler();">update page</a></li>
+<!--
+				<li><a href="#" accesskey="2" title="" onclick="add_ssh_key();" >add a ssh key</a></li>
+				<li><a href="#" accesskey="2" title="" >add a git repo</a></li>
+-->
+				<li><a href="http://git.anomalia" accesskey="3" title="">gitweb</a></li>
+				<li><a href="http://anomalia/p/" accesskey="4" title="">pastebin</a></li>
+				<li><a href="/phpmyadmin" accesskey="4" title="">phpmyadmin</a></li>
+				<li><a href="" onclick="bust_cache();" id="front" rel="lightbox" accesskey="f" title="" >front cam</a></li>
+				<li><a href="" onclick="bust_cache();" id="back" rel="lightbox" accesskey="b" title="">back cam</a></li>
+
+		
+			</ul>
+		</div>
+	</div>
+	<div id="page">
+		<div id="content">
+			<h2>Git access urls</h2>
+			<p id="git">
+			  <a href="#" class="button-style" style="color: rgb(255,255,255)"  onclick="git_repos('git clone')">clone</a> or
+			  <a href="#" class="button-style" style="color: rgb(255,255,255)" onclick="git_repos('git remote add anomalia')">add remote</a> 
+			</p>
+			<p id="git_urls">git urls go here</p>
+			
+		</div>
+		<div id="sidebar">
+			<div id="tbox1">
+				<h2>System stats</h2>
+				<ul class="style2">
+					<li class="first">
+						<h3><a href="#">Power</a></h3>
+						<table>
+						<tr><td>Battery Voltage</td>
+						  <td id="bvoltage">--</td></tr>
+						<tr><td>Charger Voltage</td>
+						  <td id="cvoltage">--</td></tr>
+						<tr><td>Status</td>
+						  <td id="bstatus">--</td></tr>
+						</table>
+
+					</li>
+					<li>
+						<h3><a href="#">Disk</a></h3>
+						<table>
+						<tr><td>debian</td>
+						  <td id="disc_root">--</td></tr>
+						<tr><td>android</td>
+						  <td id="disc_data">--</td></tr>
+						</table>
+						
+					</li>
+					<li>
+						<h3><a href="#">Memory</a></h3>
+						<p id="meminfo">--</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<div id="three-column">
+		<div id="tbox1">
+			<h2>CPU Info</h2>
+			<ul class="style1">
+			  <p id="cpuinfo">cpuinfo</p>
+			</ul>
+			</div>
+		<div id="tbox2">
+			<h2>System Info</h2>
+			<ul class="style1">
+			   <p id="sysinfo">sysinfo</p>
+			</ul>
+		</div>
+
+		<div id="tbox3">
+			<h2>Git Tools</h2>
+			<ul class="style1">
+				<li class="first"><a href="#" onclick="add_git_repo();"> Add a new repo</a></li>
+				<li><a href="#" onclick="clone_git_repo();">Clone a remote repo</a></li>
+				<li><a href="#" onclick="add_ssh_key();">Add a public key</a></li>
+			</ul>
+		</div>
+
+	</div>
+
+	<div id="footer">
+		<p>Copyright (c) 2013 Necromant. Some rights reserved. Design by <a href="http://www.freecsstemplates.org">FCT</a>.<br/>Powered by 146% refined insanity</p>
+		<p id="uname">Linux anomalia 2.6.35.7 #1 PREEMPT Wed Feb 8 19:45:24 CST 2012 armv6l GNU/Linux</p>
+	</div>
+</div>
+</body>
+</html>
